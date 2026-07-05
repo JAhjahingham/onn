@@ -1,7 +1,7 @@
-StreamFlix code is - 8142579 - I used "StreaminCommunity (EN)" as my provider
+8142579 - StreamFlix code is - I used "StreaminCommunity (EN)" as my provider
 
-SmartTube (AKA ad free youtube) - 8546115
+8546115 - SmartTube (AKA ad free youtube)
 
 
 
-My IPTV Network - 1946960
+1946960 - My IPTV Network
