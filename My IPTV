@@ -1,0 +1,43 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="Cartoon Network" tvg-logo="https://w7.pngwing.com/pngs/579/384/png-transparent-cartoon-network-logo-cartoon-network-logo-television-animation-cartoon-network-television-angle-text-thumbnail.png" group-title="Cartoons",Cartoon Network
+http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8
+
+#EXTINF:-1 tvg-id="SpongeBob SquarePants" tvg-logo="https://w7.pngwing.com/pngs/777/9/png-transparent-mr-krabs-logo-krusty-krab-nickelodeon-spongebob-squarepants-employee-of-the-month-text-wikia-wiki-thumbnail.png" group-title="Cartoons",SpongeBob SquarePants (720p)
+https://jmp2.uk/plu-63f87d057533d80008ab9549.m3u8
+
+#EXTINF:-1 tvg-id="ComedyCentral.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Comedy",Comedy Central (1080p)
+http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+
+#EXTINF:-1 tvg-id="NickPlutoTV.us@US" tvg-logo="https://i.imgur.com/N7rQyzN.png" group-title="Cartoons",Nickelodeon Pluto TV (720p)
+https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
+
+#EXTINF:-1 tvg-id="Nicktoons.ca@FAST" tvg-logo="https://i.ibb.co/ZpmVmC3G/IMG-0291.jpg" group-title="Cartoons",NickToons
+https://jmp2.uk/plu-654ca7f92c1d3300086b608c.m3u8
+
+#EXTINF:-1 tvg-id="RetroBlast" tvg-logo="https://retroblast.tv/logo" group-title="Cartoons", Retro Blast
+https://retroblast.tv/hls/0/stream.m3u8
+
+#EXTINF:-1 tvg-id="SwinRewind" tvg-logo="https://swimrewind.com/logo" group-title="Cartoons", Swim Rewind
+https://swimrewind.com/hls/stream.m3u8
+
+#EXTINF:-1 tvg-id="Adult Swim" tvg-logo="https://w7.pngwing.com/pngs/750/815/png-transparent-adult-swim-as-thumbnail-at-the-movies-thumbnail.png" group-title="Cartoons", Adult Swim
+https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_1_5128000.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uPV5CT1.png" tvg-id="Rick And Morty" group-title="Cartoons", Rick And Morty
+http://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/E6EJ14j.png" tvg-id="Robot Chicken" group-title="Cartoons", Robot Chicken
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream_7.m3u8
+
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/573/640/png-transparent-boomerang-logo-television-channel-tom-and-jerry-dog-television-angle-text-thumbnail.png" tvg-id="Boomerang" group-title="Cartoons", Boomerang
+http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
+
+
+#EXTINF:-1 tvg-ID="SNL" tvg-name="SNL" tvg-logo="https://w7.pngwing.com/pngs/198/491/png-transparent-november-12-dave-chappelle-saturday-night-live-season-42-television-show-musical-guest-comedian-tv-shows-miscellaneous-blue-text-thumbnail.png" group-title="Comedy", SNL
+https://d4whmvwm0rdvi.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-nbcu-linear/f0a1846e-52ce-40c8-9c88-5e5f4c3f557c/4.m3u8
+
+#EXTINF:-1 vg-ID="FX" tvg-name="FX" tvg-logo="https://w7.pngwing.com/pngs/711/550/png-transparent-fx-logo-thumbnail.png" group-title="Cable",FX
+http://23.237.104.106:8080/USA_FX/index.m3u8
+
+#EXTINF:-1 tvg-ID="FOX 13 SEATTLE" tvg-name="FOX 13 SEATTLE WA" tvg-logo="http://heatv.net/logo$/fox.png" group-title="Cable",FOX 13 SEATTLE WA
+
