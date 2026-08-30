@@ -6,4 +6,4 @@
 
 1946960 - My IPTV Network
 
-6201085 - URL to the web for easier OON access
+6201085 - URL to the web for easier ONN access
