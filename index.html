@@ -1,93 +1,90 @@
-<!Doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-/* Default styles for desktop */
-.container {
-    display: flex;
-}
-
-/* Styles for screens smaller than 768px (tablets and phones) */
-@media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Stack elements vertically */
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Downloads For Onn Box</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 16px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      background: #6D61FA url('https://raw.githubusercontent.com/JAhjahingham/onn/refs/heads/main/images/background.jpg') no-repeat center center / cover;
     }
-}
-img, video, canvas {
-    max-width: 100%;
-    height: auto;
-}
 
-  
+    h1 {
+      color: green;
+      border: 2px solid green;
+      padding: 10px;
+      background-color: black;
+      margin-top: 0;
+      max-width: 90%;
+    }
+
+    .description {
+      color: white;
+      border: 2px solid red;
+      padding: 10px;
+      background-color: black;
+      max-width: 90%;
+    }
+
+    .btn-group {
+      width: 100%;
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .btn-group a {
+      text-decoration: none;
+      width: 100%;
+    }
+
+    .btn-group button {
+      background-color: #000000;
+      border: 1px solid green;
+      color: white;
+      padding: 16px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+      text-align: center;
+      box-sizing: border-box;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn-group a:not(:last-child) button {
+      border-bottom: none;
+    }
+
+    .btn-group button:hover {
+      background-color: #3e8e41;
+    }
+  </style>
 </head>
-
-<style>
-
-.center-container {
-  display: flex;
-  flex-direction: column;   /* Stacks elements vertically */
-  justify-content: center;  /* Centers elements vertically (if container has height) */
-  align-items: center;      /* Centers elements horizontally */
-  text-align: center;       /* Ensures multi-line text blocks align to the center */
-
-}
-
-.btn-group button {
-  background-color: #000000; /* Green background */
-  border: 1px solid green; /* Green border */
-  color: white; /* White text */
-  padding: 10px 300px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  width: 100%; /* Set a width if needed */
-  display: block; /* Make the buttons appear below each other */
-  margin: 0;    /*supposed to center */
-  display: grid;
-  place-items: center;
-  min-height: 10vh;
-  text-align: center;
-}
-
-.btn-group button:not(:last-child) {
-  border-bottom: none; /* Prevent double borders */
-}
-
-/* Add a background color on hover */
-.btn-group button:hover {
-  background-color: #3e8e41;
-}
-
-body {
-    background-image: url('https://raw.githubusercontent.com/JAhjahingham/onn/refs/heads/main/images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #6D61FA; 
-}
-  
-body {
-  margin: 0;
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-  text-align: center; /* Centers inline elements and text inside boxes */
-}
-
-</style>
 <body>
 
-<h1 style="color: green; border: 2px solid green; display: inline-block; padding: 10px; background-color: black;">
-Downloads For Onn Box
-</h1>
-<p style= "color: white; border: 2px solid red; padding: 10px; background-color: black;">Click the buttons bellow OR enter to number code to download. The Enjoy!!! =)</P>
+  <h1>Downloads For Onn Box</h1>
+  <p class="description">Click the buttons below OR enter the number code to download. Then Enjoy!!! =)</p>
 
-<div class="btn-group">
-
-<a href="https://github.com/JAhjahingham/onn/releases/download/StreamFlix/streamflix-v1.7.222-only-tv.apk" class="download-btn"><button style="font-size: 20px; text-align: center;">StreamFlix - 8142579</button></a>
-
-  <a href="https://github.com/JAhjahingham/onn/releases/download/SmartTube/SmartTube_stable_31.94_universal.apk"><button style="font-size: 20px; text-align: center;">Smartube - 8546115</button></a>
-
-  <a href="https://github.com/professorDeveloper/sozo/releases/download/v3.1.0/app-arm64-v8a-release.apk"><button style="font-size: 20px; text-align: center;">Sozo - Anime</button><a/>
-</div>
+  <div class="btn-group">
+    <a href="https://github.com/JAhjahingham/onn/releases/download/StreamFlix/streamflix-v1.7.222-only-tv.apk">
+      <button>StreamFlix - 8142579</button>
+    </a>
+    <a href="https://github.com/JAhjahingham/onn/releases/download/SmartTube/SmartTube_stable_31.94_universal.apk">
+      <button>Smartube - 8546115</button>
+    </a>
+    <a href="https://github.com/professorDeveloper/sozo/releases/download/v3.1.0/app-arm64-v8a-release.apk">
+      <button>Sozo - Anime</button>
+    </a>
+  </div>
 
 </body>
 </html>
